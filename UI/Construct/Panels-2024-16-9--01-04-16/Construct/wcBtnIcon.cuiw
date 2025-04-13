@@ -1,0 +1,75 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3301.21.0"
+Created = 2024-07-09 17:39:14.389355-05:00
+LastModifiedByAppHost = "1.3301.21.0"
+Modified = 2024-07-09 17:39:14.38935-05:00
+CreatedByProjectApp = "1.3301.21.0"
+LastModifiedByProjectApp = "1.3301.21.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<div categoryname="Widget Components" id="iavdimi3sq" devicesVisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" defaultWidth="100px" defaultHeight="60px" class="widget-container"><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageFlipAttributeName="pageflip" clearLabel="true" ccid_imageIconType="iconclass" ccid_linkSendReceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedByPreviewState="True" shape="rounded-rectangle" customvstheme="custom" id="iuj6" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="advanced" componentName="Button" ccid_themeCSSSet="true" devicesVisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" labelinnerhtml="" pd-receivestatescriptlabelhtml="Contract Enabled" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" selected="false">
+              </ch5-button></div>
+
+{Css}
+@media (max-width: 99999px){#iavdimi3sq{width:60px;height:50px;left:0;top:0;position:absolute;}#wrapper{background-color:#4d4d4d;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#iuj6 .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:rgba(0,0,0,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iuj6 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:40px;font-weight:400;buttonDefaultLabel_font-size:40px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:40px;}#iuj6 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;}#iuj6 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iuj6 .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#iuj6 .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:rgba(0,138,230,0);border-color:#0099ff;border-width:0;}#iuj6 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultPressedLabel_font-size:40px;buttonDefaultPressedLabel_color:#ffffff;buttonDefaultPressedLabel_font-weight:400;custom-font-size:40px;}#iuj6 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultPressedIcon_color:#ffffff;}#iuj6 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#iuj6 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iuj6 .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#iuj6 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedLabel_color:#ffffff;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:40px;}#iuj6 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#ffffff;}#iuj6 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#iuj6 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iuj6 .ch5-button--size-regular .cb-btn{width:60px;height:50px;}#iuj6{width:60px;height:50px;font-family:Roboto;display:block;left:0px;top:11px;position:absolute;z-index:9;}}@media (orientation: portrait) and (max-height: 752px) and (max-width: 391px), (orientation: portrait) and (max-height: 750px){#iavdimi3sq{width:60px;height:50px;left:0;top:0;position:absolute;}body{background-color:#4d4d4d;}#wrapper{background-color:#4d4d4d;}#iuj6{width:60px;height:50px;font-family:Roboto;left:0px;top:0px;position:absolute;z-index:9;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:30px;buttonDefaultLabel_font-size:40px;buttonDefaultPressedLabel_font-size:40px;display:block;newRuleWidth:61px;newRuleHeight:51px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedIcon_font-size:30px;}#iuj6 .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#iuj6 .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "wcBtnIcon"
+PageMode = "absolute"
+Id = "6955398f-bd4f-4ef1-a1f0-ecba5d6ffbd7"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "iuj6"
+pageflip = "0"
+iconposition = "first"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "advanced"
+componentName = "Button"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+labelinnerhtml = ""
+pd-receivestatescriptlabelhtml = "Contract Enabled"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+selected = "false"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "iavdimi3sq"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+defaultWidth = "100px"
+defaultHeight = "60px"
+

@@ -1,0 +1,141 @@
+/*
+Programmer: Kyle Wilcoxen
+Creation: 03/05/24
+Comments: 
+*/
+
+#HELP_BEGIN
+   Takes an incoming string and parses it to TX$ output based on Delimeter.
+#HELP_END
+
+#DEFINE_CONSTANT				strLength	65534
+#DEFINE_CONSTANT				msgLength	500
+#DEFINE_CONSTANT				maxErrCnt	250
+#CATEGORY "46" "KJW" // Custom
+ 
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#ENCODING_INHERIT_FROM_PARENT
+
+/*******************************************************************************************
+*******************************************************************************************/
+STRING_PARAMETER Delimeter[255];
+INTEGER_PARAMETER ParseMode;
+
+#BEGIN_PARAMETER_PROPERTIES Delimeter
+   propValidUnits = unitString;
+   propDefaultUnit = unitString;
+   propDefaultValue = "\x0D\x0A";
+#END_PARAMETER_PROPERTIES
+
+#BEGIN_PARAMETER_PROPERTIES ParseMode
+   propValidUnits = unitDecimal;
+   propDefaultUnit = unitDecimal;
+   propDefaultValue = 0d;
+   propList={0d,"Include Delimeter"},{1d,"Remove Delimeter"};
+#END_PARAMETER_PROPERTIES
+
+/*******************************************************************************************
+*******************************************************************************************/
+DIGITAL_INPUT _SKIP_,_SKIP_,Debug,ResetErrorCount;
+BUFFER_INPUT RX$[strLength];
+
+STRING_OUTPUT _SKIP_,_SKIP_,_SKIP_,_SKIP_,TX$;
+ANALOG_OUTPUT StringLength,ErrorCount; 
+
+/*******************************************************************************************
+*******************************************************************************************/
+INTEGER nErrCnt,nDebug;
+STRING sErrorMsg[maxErrCnt][msgLength];
+
+/*******************************************************************************************
+*******************************************************************************************/
+STRING_FUNCTION fnParseData(STRING sData)
+{
+	STRING sJunk[255];
+	INTEGER nStringLen,nDelimeterLen;
+	
+	nStringLen = LEN(sData);
+	nDelimeterLen = LEN(Delimeter);
+	
+	IF(ParseMode)
+	{ //remove delimeter
+		sData = LEFT(sData,nStringLen-nDelimeterLen);				
+	}
+
+	MAKESTRING(TX$,"%s",sData);
+	StringLength = LEN(sData);	
+}                                                                                            
+
+/*******************************************************************************************
+*******************************************************************************************/
+PUSH ResetErrorCount{nErrCnt = 0; ErrorCount = nErrCnt;}
+
+PUSH Debug
+{
+	INTEGER i;
+	nDebug = 1;
+	
+	IF(nErrCnt)
+	{
+		TRACE("String_Parcer Debug: Error Count:%u",nErrCnt);
+		
+		FOR(i = 1 to nErrCnt)
+			TRACE("String_Parcer Debug: Error Msg %u:%s",i,sErrorMsg[i]);
+	}	
+}
+
+RELEASE Debug{nDebug = 0;}
+
+THREADSAFE CHANGE RX$
+{
+	STRING sRX[strLength];
+	STRING sMsg[msgLength];
+	
+	WHILE(1)
+	{
+		TRY
+		{
+			sRX = GATHER(Delimeter,RX$);
+			
+			IF(LEN(sRX) = strLength)
+			{
+				CLEARBUFFER(RX$);
+				BREAK;
+			}
+			ELSE
+				fnParseData(sRX);
+		}
+		CATCH
+		{
+			sMsg = GETEXCEPTIONMESSAGE();
+			
+			IF(nErrCnt <= maxErrCnt)
+			{
+				TRACE("String_Parcer SIMPL+ module RX$ Error: %s",sMsg);
+				nErrCnt = nErrCnt + 1;
+				ErrorCount = nErrCnt;
+				sErrorMsg[nErrCnt] = sMsg;				
+			}
+			ELSE
+			{
+				IF(nDebug)
+					TRACE("String_Parcer SIMPL+ module RX$ Error: %s",sMsg);
+			}
+		}
+	}
+}
+
+/*******************************************************************************************
+  Main()
+  Uncomment and place one-time startup code here
+  (This code will get called when the system starts up)
+*******************************************************************************************/
+Function Main()
+{
+    nErrCnt = 0;
+    nDebug = 0;
+    StringLength = 0;
+}
+

@@ -1,0 +1,32 @@
+Programmer: Kyle Wilcoxen
+
+SUMMARY:
+This module was created function like Crestron's Interlock-Toggle and Multiple One Shot combined into one module.
+
+MODULE OPERATION:
+Connect an analog initialize to the Input signal and use any value to set your interlock. 
+
+The analog Output signal will match the value sent to Input. Connect an analog equate to this output
+to convert this value to digital feedback. 
+
+--------------------------------------------------------
+Interlock Toggle
+--------------------------------------------------------
+This module defaults to a standard interlock.
+
+To make this module an interlock toggle, set the Interlock_Type parameter to Toggle in the dropdown.
+Use the [InterlockType] analog input to set the type for the module programmatically.
+
+--------------------------------------------------------
+Multiple One Shot
+--------------------------------------------------------
+To create a MOS from this module, use a second analog equate and connect its analog/digital inputs to the Output and [OS] signal of the module.
+
+When any value is sent to Input, the module will pulse the [OS] digital output for the duration set by the Pulse Time parameter. This output will be pulsed even if Input receives the same value.
+
+Use the Pulse_Delay parameter to set a delay to the [OS] output. Parameter is set to 0s by default.
+
+--------------------------------------------------------
+Setting Output Feedback Only
+--------------------------------------------------------
+If a scenario arises where you need to set the feedback on the module but do NOT want [OS] pulsed, simply set Output to a value with a separate analog initialize symbol.

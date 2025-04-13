@@ -1,0 +1,52 @@
+Programmer: Kyle Wilcoxen
+
+SUMMARY:
+This module was created to function like Crestron's set-reset latch but with added toggle capability. It also features built in one-shots for each digital output and the ability to send strings to a device based on the module input events.
+
+MODULE OPERATION:
+--------------------------------------------------------
+Set-Reset-Toggle
+--------------------------------------------------------
+To set the state of the module, use either an analog initialize connected to the [Set-Reset-Toggle] input or pulse the [Set],[Reset] or Toggle digital inputs.
+
+Use the following analog values when setting [Set-Reset-Toggle]:
+ 0d = [Reset]
+ 1d = [Set]
+ 2d = [Toggle]
+
+Digital Out will set high if analog [Out] equals 1d. 
+Digital [Out*] will set high if analog [Out] equals 0d. 
+
+These outputs are driven internally by an analog equate.
+
+--------------------------------------------------------
+Multiple One Shot
+--------------------------------------------------------
+Digital [Out_Pulse] will pulse when an input value equals 1d.
+Digital [Out*_Pulse] will pulse when an input value equals 0d.
+
+Use the PulseTime and PulseDelay parameters to adjust how the one shots function.
+Default is .3s and 0s respectively.
+
+These outputs are driven internally by an analog equate and will be pulsed even if an input receives the same value.
+
+--------------------------------------------------------
+Sending Strings to a Device
+--------------------------------------------------------
+The [StringOut$] serial output can be used to send text or API commands to a device.
+Use the String_Out and String_Out* parameters to set the strings based on events.
+
+When an input equals 0d, whatever string is set in String_Out* will be sent to [StringOut$].
+When an input equals 1d, whatever string is set in String_Out will be sent to [StringOut$].
+
+If either of these parameters are set to their default "", they will not be sent based on their corresponding event.
+
+--------------------------------------------------------
+Setting Output Feedback Only
+--------------------------------------------------------
+If a scenario arises where you need to set the feedback on the module but do not want any of the pulse events to occur, simply set [Out] to 0d or 1d with a separate analog initialize symbol.
+
+--------------------------------------------------------
+Enabling Digital Feedback
+--------------------------------------------------------
+The [Enable_Feedback] input is used to allow digitals Out and [Out*] to show their feedback state. If this input is not defined or set low, Out and [Out*] will stay low until this input is set high. Input is set to 1 by default.

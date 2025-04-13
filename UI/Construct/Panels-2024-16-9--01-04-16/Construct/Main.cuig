@@ -1,0 +1,75 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3301.21.0"
+Created = 2024-07-09 18:41:31.868026-05:00
+LastModifiedByAppHost = "1.3301.21.0"
+Modified = 2024-07-09 18:41:31.868023-05:00
+CreatedByProjectApp = "1.3301.21.0"
+LastModifiedByProjectApp = "1.3301.21.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<ch5-template templateid="w244a8bde-f740-4f20-83b8-59d4fb572abe" id="ip2i" componentname="VolumeBar" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]"></ch5-template><ch5-template templateid="wa443eaf8-bc59-47f5-9192-4aa917c74868" id="icst" componentname="NavCtrls" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="wc5c49887-ffe7-40a4-8dd3-f4418940e0ed" id="ieq5" componentname="FunctionBar" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]"></ch5-template><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="ipem" componentname="MainBackground" ccid_linksendreceive="True" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" imgbackgroundcolor="transparent" pd-receivestatebackgroundcolor="Contract Enabled" pd-receivestateurl="Contract Enabled" backgroundcolor="#4d4d4d" componentwasresized="true">
+              </ch5-background>
+
+{Css}
+@media (max-width: 99999px){#wrapper{background-color:#4d4d4d;}#ipem{width:100%;height:100%;z-index:-98;overflow:hidden;position:absolute;display:block;left:0px;top:0px;}#ieq5{display:block;left:0px;top:686px;position:absolute;z-index:11;width:auto;height:auto;}#ip2i{display:block;left:0px;top:1px;position:absolute;z-index:13;}#icst{display:block;left:1px;top:61px;position:absolute;z-index:12;width:auto;height:auto;}}@media (orientation: portrait) and (max-height: 752px) and (max-width: 391px), (orientation: portrait) and (max-height: 750px){body{background-color:#4d4d4d;}#ipem{width:100%;height:100%;z-index:-98;overflow:hidden;position:absolute;display:block;left:0;top:0;}#ieq5{display:block;left:0px;top:686px;position:absolute;z-index:11;width:auto;height:auto;}#ip2i{display:block;left:0px;top:1px;position:absolute;z-index:13;}#icst{left:1px;top:61px;position:absolute;z-index:12;width:auto;height:auto;display:block;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Main"
+PageMode = "absolute"
+Id = "da98d626-55e8-4402-92c8-7ae39b879ef7"
+StartPage = "True"
+VisibilityJoin = "0"
+
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+templateid = "w244a8bde-f740-4f20-83b8-59d4fb572abe"
+id = "ip2i"
+componentName = "VolumeBar"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+templateid = "wa443eaf8-bc59-47f5-9192-4aa917c74868"
+id = "icst"
+componentName = "NavCtrls"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+templateid = "wc5c49887-ffe7-40a4-8dd3-f4418940e0ed"
+id = "ieq5"
+componentName = "FunctionBar"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+[[Elements]]
+Type = "Ch5 Background"
+Editable = true
+
+[[Elements.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "0"
+id = "ipem"
+componentName = "MainBackground"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+imgbackgroundcolor = "transparent"
+pd-receivestatebackgroundcolor = "Contract Enabled"
+pd-receivestateurl = "Contract Enabled"
+backgroundcolor = "#4d4d4d"
+componentWasResized = "true"
+

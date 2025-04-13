@@ -1,0 +1,154 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.3000.01
+  IsProgram=1
+  TopLevelProgram=Rm1_2024Nov1.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm1_2024Nov1.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm1_2024Nov1.sig
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm1_2024Nov1.dip
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm1_2024Nov1.lpz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm1_2024Nov1.smft
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm1_2024Nov1.lpz.hash
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm1_2024Nov1_CrosspointList.txt
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Manager_MultiFile_AVISPL.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Manager_MultiFile_AVISPL.html
+  Scope=1
+  Module=Config_System_V3_0_0_Manager_MultiFile_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_ConfigSystem_AVISPL.clz
+  Scope=1
+  Module=Config_System_V3_0_0_Manager_MultiFile_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_GroupSerial_AVISPL.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_GroupSerial_AVISPL.html
+  Scope=1
+  Module=Config_System_V3_0_0_Config_GroupSerial_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_GroupAnalog_AVISPL.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_GroupAnalog_AVISPL.html
+  Scope=1
+  Module=Config_System_V3_0_0_Config_GroupAnalog_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_BlockSerial_AVISPL.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_BlockSerial_AVISPL.html
+  Scope=1
+  Module=Config_System_V3_0_0_Config_BlockSerial_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=String to HTML Formatter.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=String to HTML Formatter.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Empty_String_Detector.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Interlock-Toggle-MOS.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Interlock-Toggle-MOS_HELP.txt
+  Scope=1
+  Module=Interlock-Toggle-MOS.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Crosspoint Connect - Static ControlID.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Integer to String v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=String_Parser.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Panels.chd_
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Toggle-Set-Reset Latch OS.umc
+  Scope=2
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Toggle-Set-Reset Latch OS_HELP.txt
+  Scope=2
+  Module=Toggle-Set-Reset Latch OS.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=TSW1050_2024Jun16.sgd_
+  Scope=1
+[END]

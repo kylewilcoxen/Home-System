@@ -1,0 +1,81 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.3000.01
+  IsProgram=1
+  TopLevelProgram=Rm2_2024Dec09.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm2_2024Dec09.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm2_2024Dec09.sig
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm2_2024Dec09.lpz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm2_2024Dec09.smft
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm2_2024Dec09.lpz.hash
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Rm2_2024Dec09_CrosspointList.txt
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Manager_MultiFile_AVISPL.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Manager_MultiFile_AVISPL.html
+  Scope=1
+  Module=Config_System_V3_0_0_Manager_MultiFile_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_ConfigSystem_AVISPL.clz
+  Scope=1
+  Module=Config_System_V3_0_0_Manager_MultiFile_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_GroupSerial_AVISPL.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_V3_0_0_Config_GroupSerial_AVISPL.html
+  Scope=1
+  Module=Config_System_V3_0_0_Config_GroupSerial_AVISPL.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Interlock_OneShot_v1_0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Interlock_OneShot_v1_0_Help.pdf
+  Scope=1
+  Module=Interlock_OneShot_v1_0.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=LG_ChannelDriver.ush
+  Scope=1
+[END]

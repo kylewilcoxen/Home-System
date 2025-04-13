@@ -1,0 +1,92 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3301.21.0"
+Created = 2024-07-09 17:37:55.458307-05:00
+LastModifiedByAppHost = "1.3301.21.0"
+Modified = 2024-07-09 17:37:55.458302-05:00
+CreatedByProjectApp = "1.3301.21.0"
+LastModifiedByProjectApp = "1.3301.21.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<div categoryname="Widget Components" id="iyi6680sff" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" defaultwidth="500px" defaultheight="500px" class="widget-container"><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="4" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="false" usecontractforitemenable="false" usecontractforitemshow="true" customvstheme="custom" id="imtxafqdi3" componentname="FunctionList" ccid_linksendreceive="True" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" pd-subpagereceivestateshow="Contract Enabled" oldid="ihpc" widgetid="w6955398f-bd4f-4ef1-a1f0-ecba5d6ffbd7">
+              </ch5-subpage-reference-list><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="inoe" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" imgbackgroundcolor="transparent" componentwasresized="true" pd-receivestatebackgroundcolor="Contract Enabled" backgroundcolor="rgba(0,0,0,0.5)">
+              </ch5-background></div>
+
+{Css}
+@media (max-width: 99999px){#iyi6680sff{width:389px;height:60px;left:0;top:0;position:absolute;}#wrapper{background-color:#4d4d4d;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#imtxafqdi3{width:280px;height:auto;display:block;left:54px;top:0px;position:absolute;z-index:10;listStyles_padding-top:0;listStyles_padding-left:0;listStyles_column-gap:0;listStyles_row-gap:0;listStyles_background-color:rgba(0,0,0,0);}#imtxafqdi3 .ch5-subpage-reference-list{listStyles_padding-top:0;padding-top:0;listStyles_padding-left:0;padding-left:0;listStyles_column-gap:0;column-gap:0;listStyles_row-gap:0;row-gap:0;listStyles_background-color:rgba(0,0,0,0);background-color:rgba(0,0,0,0);}#inoe{width:100%;height:100%;left:0;top:0;position:absolute;z-index:-96;display:block;overflow:hidden;}}@media (orientation: portrait) and (max-height: 752px) and (max-width: 391px), (orientation: portrait) and (max-height: 750px){#iyi6680sff{width:389px;height:60px;left:0;top:0;position:absolute;}body{background-color:#4d4d4d;}#imtxafqdi3{width:280px;height:auto;display:block;left:54px;top:0px;position:absolute;z-index:10;listStyles_padding-top:0;listStyles_padding-left:0;listStyles_column-gap:0;listStyles_row-gap:0;listStyles_background-color:rgba(0,0,0,0);}#inoe{width:100%;height:100%;left:0;top:0;position:absolute;z-index:-96;overflow:hidden;display:block;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "FunctionBar"
+PageMode = "absolute"
+Id = "c5c49887-ffe7-40a4-8dd3-f4418940e0ed"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "Ch5 Subpage Reference List"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+orientation = "horizontal"
+columns = "1"
+rows = "1"
+centeritems = "true"
+numberofitems = "4"
+scrolltoposition = "0"
+scrollbar = "false"
+endless = "false"
+indexid = "idx"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+useContractForEnable = "false"
+useContractForShow = "false"
+useContractForNumItems = "false"
+useContractForItemEnable = "false"
+useContractForItemShow = "true"
+customvstheme = "custom"
+id = "imtxafqdi3"
+componentName = "FunctionList"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+pd-subpagereceivestateshow = "Contract Enabled"
+oldID = "ihpc"
+widgetid = "w6955398f-bd4f-4ef1-a1f0-ecba5d6ffbd7"
+[[Elements.Components]]
+Type = "Ch5 Background"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "0"
+id = "inoe"
+componentName = "Background"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+imgbackgroundcolor = "transparent"
+componentWasResized = "true"
+pd-receivestatebackgroundcolor = "Contract Enabled"
+backgroundcolor = "rgba(0,0,0,0.5)"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "iyi6680sff"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+defaultWidth = "500px"
+defaultHeight = "500px"
+

@@ -1,0 +1,175 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3301.21.0"
+Created = 2024-07-09 18:34:40.065912-05:00
+LastModifiedByAppHost = "1.3301.21.0"
+Modified = 2024-07-09 18:34:40.065908-05:00
+CreatedByProjectApp = "1.3301.21.0"
+LastModifiedByProjectApp = "1.3301.21.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<div categoryname="Widget Components" id="i1g81q23o7" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" defaultwidth="500px" defaultheight="500px" class="widget-container"><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="i6hkdvhpvh" pageflip="0" iconposition="first" previewstate="selected" orientation="horizontal" labelmode="advanced" componentname="VolumeMuteBtn" ccid_themecssset="true" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" labelinnerhtml="" pd-receivestatescriptlabelhtml="Contract Enabled" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" oldid="i5vbz4fqj1" iconclass="fas fa-volume-mute" selected="true"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="i6vv7wglmk" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="VolumeDwnBtn" ccid_themecssset="true" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" labelinnerhtml="" pd-receivestatescriptlabelhtml="Contract Enabled" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" oldid="i5vbz4fqj1" selected="false" iconclass="fas fa-volume-down"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="i5vbz4fqj1" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="VolumeUpBtn" ccid_themecssset="true" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" labelinnerhtml="" pd-receivestatescriptlabelhtml="Contract Enabled" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" oldid="iuj6" selected="false" iconclass="fas fa-volume-up">
+              </ch5-button><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="ivx5gs5oxr" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" imgbackgroundcolor="transparent" componentwasresized="true" pd-receivestatebackgroundcolor="Contract Enabled" backgroundcolor="rgba(0,0,0,0.5)" oldid="inoe">
+              </ch5-background></div>
+
+{Css}
+@media (max-width: 99999px){#i1g81q23o7{width:389px;height:60px;left:0;top:0;position:absolute;}#wrapper{background-color:#4d4d4d;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ivx5gs5oxr{width:100%;height:100%;left:0px;top:0px;position:absolute;z-index:-95;display:block;overflow:hidden;}#i5vbz4fqj1{width:60px;height:60px;font-family:Roboto;display:block;left:278px;top:0px;position:absolute;z-index:12;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:30px;buttonDefaultLabel_font-size:40px;buttonDefaultPressedLabel_font-size:40px;newRuleWidth:61px;newRuleHeight:51px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedIcon_font-size:30px;}#i5vbz4fqj1 .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:rgba(0,0,0,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i5vbz4fqj1 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:40px;font-weight:400;buttonDefaultLabel_font-size:40px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:40px;}#i5vbz4fqj1 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;}#i5vbz4fqj1 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i5vbz4fqj1 .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#i5vbz4fqj1 .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:rgba(0,138,230,0);border-color:#0099ff;border-width:0;}#i5vbz4fqj1 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultPressedLabel_font-size:40px;buttonDefaultPressedLabel_color:#ffffff;buttonDefaultPressedLabel_font-weight:400;custom-font-size:40px;}#i5vbz4fqj1 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultPressedIcon_color:#ffffff;}#i5vbz4fqj1 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#i5vbz4fqj1 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i5vbz4fqj1 .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#i5vbz4fqj1 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedLabel_color:#ffffff;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:40px;}#i5vbz4fqj1 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#ffffff;}#i5vbz4fqj1 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#i5vbz4fqj1 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i5vbz4fqj1 .ch5-button--size-regular .cb-btn{width:60px;height:60px;}#i6vv7wglmk{width:60px;height:60px;font-family:Roboto;display:block;left:154px;top:0px;position:absolute;z-index:13;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:30px;buttonDefaultLabel_font-size:40px;buttonDefaultPressedLabel_font-size:40px;newRuleWidth:61px;newRuleHeight:51px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedIcon_font-size:30px;}#i6vv7wglmk .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:rgba(0,0,0,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i6vv7wglmk .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:40px;font-weight:400;buttonDefaultLabel_font-size:40px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:40px;}#i6vv7wglmk .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;}#i6vv7wglmk .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i6vv7wglmk .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#i6vv7wglmk .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:rgba(0,138,230,0);border-color:#0099ff;border-width:0;}#i6vv7wglmk .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultPressedLabel_font-size:40px;buttonDefaultPressedLabel_color:#ffffff;buttonDefaultPressedLabel_font-weight:400;custom-font-size:40px;}#i6vv7wglmk .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultPressedIcon_color:#ffffff;}#i6vv7wglmk .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#i6vv7wglmk .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i6vv7wglmk .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#i6vv7wglmk .ch5-button--default.ch5-button--selected .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedLabel_color:#ffffff;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:40px;}#i6vv7wglmk .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#ffffff;}#i6vv7wglmk .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#i6vv7wglmk .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i6vv7wglmk .ch5-button--size-regular .cb-btn{width:60px;height:60px;}#i6hkdvhpvh{width:60px;height:60px;font-family:Roboto;display:block;left:58px;top:0px;position:absolute;z-index:15;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:30px;buttonDefaultLabel_font-size:40px;buttonDefaultPressedLabel_font-size:40px;newRuleWidth:61px;newRuleHeight:51px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#ff0000;}#i6hkdvhpvh .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:rgba(0,0,0,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i6hkdvhpvh .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:40px;font-weight:400;buttonDefaultLabel_font-size:40px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:40px;}#i6hkdvhpvh .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;}#i6hkdvhpvh .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i6hkdvhpvh .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#i6hkdvhpvh .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:rgba(0,138,230,0);border-color:#0099ff;border-width:0;}#i6hkdvhpvh .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultPressedLabel_font-size:40px;buttonDefaultPressedLabel_color:#ffffff;buttonDefaultPressedLabel_font-weight:400;custom-font-size:40px;}#i6hkdvhpvh .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultPressedIcon_color:#ffffff;}#i6hkdvhpvh .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#i6hkdvhpvh .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i6hkdvhpvh .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#i6hkdvhpvh .ch5-button--default.ch5-button--selected .ch5-button--label{color:#ffffff;font-size:40px;font-weight:400;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedLabel_color:#ffffff;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:40px;}#i6hkdvhpvh .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#ff0000;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#ff0000;}#i6hkdvhpvh .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#i6hkdvhpvh .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i6hkdvhpvh .ch5-button--size-regular .cb-btn{width:60px;height:60px;}}@media (orientation: portrait) and (max-height: 752px) and (max-width: 391px), (orientation: portrait) and (max-height: 750px){#i1g81q23o7{width:389px;height:60px;left:0;top:0;position:absolute;}body{background-color:#4d4d4d;}#ivx5gs5oxr{width:100%;height:100%;left:0px;top:0px;position:absolute;z-index:-95;overflow:hidden;display:block;}#i5vbz4fqj1{width:60px;height:60px;font-family:Roboto;left:278px;top:0px;position:absolute;z-index:12;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:30px;buttonDefaultLabel_font-size:40px;buttonDefaultPressedLabel_font-size:40px;display:block;newRuleWidth:61px;newRuleHeight:51px;buttonDefaultPressedIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:40px;buttonDefaultSelectedIcon_font-size:30px;}#i5vbz4fqj1 .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#i5vbz4fqj1 .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}#i6vv7wglmk{left:154px;top:0px;}#i6vv7wglmk .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#i6vv7wglmk .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}#i6hkdvhpvh{left:58px;top:0px;buttonDefaultSelectedIcon_color:#ff0000;}#i6hkdvhpvh .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#i6hkdvhpvh .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "VolumeBar"
+PageMode = "absolute"
+Id = "244a8bde-f740-4f20-83b8-59d4fb572abe"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "i6hkdvhpvh"
+pageflip = "0"
+iconposition = "first"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "advanced"
+componentName = "VolumeMuteBtn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+labelinnerhtml = ""
+pd-receivestatescriptlabelhtml = "Contract Enabled"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+oldID = "i5vbz4fqj1"
+iconclass = "fas fa-volume-mute"
+selected = "true"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "i6vv7wglmk"
+pageflip = "0"
+iconposition = "first"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "advanced"
+componentName = "VolumeDwnBtn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+labelinnerhtml = ""
+pd-receivestatescriptlabelhtml = "Contract Enabled"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+oldID = "i5vbz4fqj1"
+selected = "false"
+iconclass = "fas fa-volume-down"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "i5vbz4fqj1"
+pageflip = "0"
+iconposition = "first"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "advanced"
+componentName = "VolumeUpBtn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+labelinnerhtml = ""
+pd-receivestatescriptlabelhtml = "Contract Enabled"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+oldID = "iuj6"
+selected = "false"
+iconclass = "fas fa-volume-up"
+[[Elements.Components]]
+Type = "Ch5 Background"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "0"
+id = "ivx5gs5oxr"
+componentName = "Background"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+imgbackgroundcolor = "transparent"
+componentWasResized = "true"
+pd-receivestatebackgroundcolor = "Contract Enabled"
+backgroundcolor = "rgba(0,0,0,0.5)"
+oldID = "inoe"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "i1g81q23o7"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+defaultWidth = "500px"
+defaultHeight = "500px"
+

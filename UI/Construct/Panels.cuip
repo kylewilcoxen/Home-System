@@ -1,0 +1,25 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3301.21.0"
+Created = 2024-07-09 13:18:02.525901-05:00
+LastModifiedByAppHost = "1.3501.13.0"
+Modified = 2024-09-22 20:14:53.950791-05:00
+CreatedByProjectApp = "1.3301.21.0"
+LastModifiedByProjectApp = "1.3501.13.0"
+MinimumProjectApp = "1.2600.1"
+
+{DeviceResolutionSource}
+[]
+
+{ProjectAttributes}
+
+[Attributes]
+Name = "Panels"
+ThemeId = "dark-theme.css"
+ThemePageColor = "#4d4d4d"
+SdkId = "CH5:2.11.1"
+ComponentKey = "UiEditor"
+DeviceResolutionIds = "G-P-IPH0140-PRO-393-852"
+ipId = "05"
+ProjectSchemaVersion = "4"
+

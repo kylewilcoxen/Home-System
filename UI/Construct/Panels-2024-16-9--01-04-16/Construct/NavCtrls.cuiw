@@ -1,0 +1,271 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3301.21.0"
+Created = 2024-07-09 18:19:39.039414-05:00
+LastModifiedByAppHost = "1.3301.21.0"
+Modified = 2024-07-09 18:19:39.03941-05:00
+CreatedByProjectApp = "1.3301.21.0"
+LastModifiedByProjectApp = "1.3301.21.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<div categoryname="Widget Components" id="ipf48vvzn8" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" defaultwidth="500px" defaultheight="500px" class="widget-container"><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="i8cpihg9pu5ag" pageflip="0" iconposition="top" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="ExitBtn" ccid_themecssset="true" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" oldid="i7pt4g9iiuorh" labelinnerhtml="Exit" selected="true"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="i7pt4g9iiuorh" pageflip="0" iconposition="top" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="BackBtn" ccid_themecssset="true" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" oldid="i2qtzxnad0tie" labelinnerhtml="Back" selected="true"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="i2qtzxnad0tie" pageflip="0" iconposition="top" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="HomeBtn" ccid_themecssset="true" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" oldid="it2vcyu5x9vcs" selected="true" pd-receivestatescriptlabelhtml="Contract Enabled"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="it2vcyu5x9vcs" pageflip="0" iconposition="top" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="EPGBtn" ccid_themecssset="true" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" size="custom" labelinnerhtml="EPG Guide" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" oldid="iuj6" iconclass="fas fa-list" selected="true">
+              </ch5-button><ch5-dpad size="x-large" shape="plus" type="default" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" hidecenterbutton="false" disablecenterbutton="false" customvstheme="custom" id="i3vx" componentname="DPad" ccid_themecssset="true" ccid_linksendreceive="True" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]">
+              <ch5-dpad-button componentname="Up" key="up" iconclass="fas fa-caret-up" ccid_imageicontype="iconclass"></ch5-dpad-button><ch5-dpad-button componentname="Down" key="down" iconclass="fas fa-caret-down" ccid_imageicontype="iconclass"></ch5-dpad-button><ch5-dpad-button componentname="Left" key="left" iconclass="fas fa-caret-left" ccid_imageicontype="iconclass"></ch5-dpad-button><ch5-dpad-button componentname="Right" key="right" iconclass="fas fa-caret-right" ccid_imageicontype="iconclass"></ch5-dpad-button><ch5-dpad-button componentname="Center" key="center" ccid_imageicontype="iconclass"></ch5-dpad-button></ch5-dpad><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="ixn1" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;iPhone 14 Pro (Portrait)&quot;]" backgroundcolor="#ffffff">
+              </ch5-background></div>
+
+{Css}
+@media (max-width: 99999px){#ipf48vvzn8{width:389px;height:630px;left:0;top:0;position:absolute;}#wrapper{background-color:#4d4d4d;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ixn1{width:100%;height:100%;left:0;top:0;position:absolute;z-index:-88;display:block;overflow:hidden;}#i3vx.ch5-dpad.ch5-dpad--type-default .ch5-dpad-child{dpadDefault_color:#ffffff;color:#ffffff;dpadDefault_background-color:#000000;background-color:#000000;font-size:40px;dpadDefault_font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default .ch5-dpad-button-center--pressed{dpadActiveDefault_color:#00cfff;color:#00cfff;dpadActiveDefault_background-color:#000000;background-color:#000000;dpadActiveDefault_font-size:40px;font-size:40px;}#i3vx.ch5-dpad .ch5-dpad-child.direction-btn span.dpad-btn-icon{z-index:1;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.up:after{box-shadow:-10px 1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.up:before{box-shadow:10px 1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.down:after{box-shadow:10px -1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.down:before{box-shadow:-10px -1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.up[class*="--pressed"]:after{box-shadow:-10px 1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.up[class*="--pressed"]:before{box-shadow:10px 1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.down[class*="--pressed"]:after{box-shadow:10px -1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--shape-plus.ch5-dpad--type-default .direction-btn.down[class*="--pressed"]:before{box-shadow:-10px -1px 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default ch5-dpad-button[class*="--pressed"]{background-color:#000000;}#i3vx.ch5-dpad.ch5-dpad--type-default ch5-dpad-button{background-color:#0099ff;}#i3vx.ch5-dpad.ch5-dpad--shape-plus ch5-dpad-button.direction-btn{flex:calc(100%/3);height:calc(100%/3);}#i3vx.ch5-dpad ch5-dpad-button.center{width:calc(100%/3);height:calc(100%/3);z-index:2;}#i3vx.ch5-dpad ch5-dpad-button.down{z-index:0;}#i3vx .dpad-container{min-width:100px;min-height:100px;}#i3vx.ch5-dpad.ch5-dpad--size-regular .dpad-container{width:150px;}#i3vx.ch5-dpad.ch5-dpad--type-default .ch5-dpad-button-right--pressed{dpadActiveDefault_color:#00cfff;color:#00cfff;dpadActiveDefault_background-color:#000000;background-color:#000000;dpadActiveDefault_font-size:40px;font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default .ch5-dpad-button-left--pressed{dpadActiveDefault_color:#00cfff;color:#00cfff;dpadActiveDefault_background-color:#000000;background-color:#000000;dpadActiveDefault_font-size:40px;font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default .ch5-dpad-button-down--pressed{dpadActiveDefault_color:#00cfff;color:#00cfff;dpadActiveDefault_background-color:#000000;background-color:#000000;dpadActiveDefault_font-size:40px;font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default .ch5-dpad-button-up--pressed{dpadActiveDefault_color:#00cfff;color:#00cfff;dpadActiveDefault_background-color:#000000;background-color:#000000;dpadActiveDefault_font-size:40px;font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:before{box-shadow:10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:after{box-shadow:-10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:after{box-shadow:-10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left::after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right::before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left::after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:before{box-shadow:10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.left:after{box-shadow:10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.left:before{box-shadow:-10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.right:after{box-shadow:-10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-regular.ch5-dpad--shape-plus .direction-btn.right:before{box-shadow:10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default ch5-dpad-button span{font-size:40px;custom-font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default ch5-dpad-button:active span{font-size:40px;custom-font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default ch5-dpad-button[class*="--pressed"] span{font-size:40px;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.left:after{box-shadow:10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.left:before{box-shadow:-10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.right:after{box-shadow:-10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.right:before{box-shadow:10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:before{box-shadow:10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:after{box-shadow:-10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:after{box-shadow:-10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left::after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right::before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left::after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:before{box-shadow:10px 0 0 0 #8e8e8e !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.left:after{box-shadow:10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.left:before{box-shadow:-10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.right:after{box-shadow:-10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.right:before{box-shadow:10px 0 0 0 #000000;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:before{box-shadow:10px 0 0 0 #000000 !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-right--pressed.direction-btn.right:after{box-shadow:-10px 0 0 0 #000000 !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left:before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:after{box-shadow:-10px 0 0 0 #000000 !important;}#i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left::after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-circle .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right::before, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.left::after, #i3vx.ch5-dpad.ch5-dpad--type-default.ch5-dpad--size-x-large.ch5-dpad--shape-plus .direction-btn.ch5-dpad-button-left--pressed.direction-btn.right:before{box-shadow:10px 0 0 0 #000000 !important;}#i3vx{display:block;width:200px;dpadDefault_color:#ffffff;dpadActiveDefault_color:#00cfff;left:94px;top:215px;position:absolute;z-index:14;min-width:100px;min-height:100px;height:200px;dpadActiveDefault_background-color:#000000;dpadDefault_background-color:#000000;dpadDefault_font-size:40px;dpadActiveDefault_font-size:40px;}#it2vcyu5x9vcs{width:70px;height:60px;font-family:Roboto;display:block;left:53px;top:129px;position:absolute;z-index:16;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:25px;buttonDefaultLabel_font-size:10px;buttonDefaultPressedLabel_font-size:10px;newRuleWidth:71px;newRuleHeight:61px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:10px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;buttonDefaultLabel_color:#1e8eff;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedIcon_color:#1effc8;buttonDefaultSelectedLabel_color:#1e8eff;buttonDefaultSelectedIcon_color:#1e8eff;}#it2vcyu5x9vcs .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:#000000;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#it2vcyu5x9vcs .ch5-button--default .ch5-button--label{font-family:Roboto;color:#1e8eff;font-size:10px;font-weight:400;buttonDefaultLabel_font-size:10px;buttonDefaultLabel_color:#1e8eff;buttonDefaultLabel_font-weight:400;custom-font-size:10px;margin-top:4px;margin-bottom:0;buttonDefaultLabel_margin-top:2px;}#it2vcyu5x9vcs .ch5-button--default .ch5-button--icon{color:#1e8eff;font-size:25px;custom-font-size:25px;buttonDefaultIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;margin-bottom:0;}#it2vcyu5x9vcs .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#it2vcyu5x9vcs .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:#000000;border-color:#0099ff;border-width:1px;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#1effc8;font-size:10px;font-weight:400;buttonDefaultPressedLabel_font-size:10px;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedLabel_font-weight:400;custom-font-size:10px;margin-bottom:0;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#1effc8;margin-bottom:0;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#it2vcyu5x9vcs .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--selected .ch5-button--label{color:#1effc8;font-size:10px;font-weight:400;buttonDefaultSelectedLabel_font-size:10px;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:10px;margin-bottom:0;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultSelectedIcon_color:#1effc8;margin-bottom:0;}#it2vcyu5x9vcs .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#it2vcyu5x9vcs .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#it2vcyu5x9vcs .ch5-button--size-regular .cb-btn{width:70px;height:60px;}#i2qtzxnad0tie .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:#000000;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i2qtzxnad0tie .ch5-button--default .ch5-button--label{font-family:Roboto;color:#1e8eff;font-size:10px;font-weight:400;buttonDefaultLabel_font-size:10px;buttonDefaultLabel_color:#1e8eff;buttonDefaultLabel_font-weight:400;custom-font-size:10px;margin-top:4px;margin-bottom:0;buttonDefaultLabel_margin-top:2px;}#i2qtzxnad0tie .ch5-button--default .ch5-button--icon{color:#1e8eff;font-size:25px;custom-font-size:25px;buttonDefaultIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;margin-bottom:0;}#i2qtzxnad0tie .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i2qtzxnad0tie .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#i2qtzxnad0tie .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:#000000;border-color:#0099ff;border-width:1px;}#i2qtzxnad0tie .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#1effc8;font-size:10px;font-weight:400;buttonDefaultPressedLabel_font-size:10px;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedLabel_font-weight:400;custom-font-size:10px;margin-bottom:0;}#i2qtzxnad0tie .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#1effc8;margin-bottom:0;}#i2qtzxnad0tie .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#i2qtzxnad0tie .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i2qtzxnad0tie .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#i2qtzxnad0tie .ch5-button--default.ch5-button--selected .ch5-button--label{color:#1effc8;font-size:10px;font-weight:400;buttonDefaultSelectedLabel_font-size:10px;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:10px;margin-bottom:0;}#i2qtzxnad0tie .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultSelectedIcon_color:#1effc8;margin-bottom:0;}#i2qtzxnad0tie .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#i2qtzxnad0tie .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i2qtzxnad0tie .ch5-button--size-regular .cb-btn{width:70px;height:60px;}#i2qtzxnad0tie{width:70px;height:60px;font-family:Roboto;display:block;left:257px;top:129px;position:absolute;z-index:17;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:25px;buttonDefaultLabel_font-size:10px;buttonDefaultPressedLabel_font-size:10px;newRuleWidth:71px;newRuleHeight:61px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:10px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;buttonDefaultLabel_color:#1e8eff;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedIcon_color:#1effc8;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedIcon_color:#1effc8;}#i7pt4g9iiuorh{width:70px;height:60px;font-family:Roboto;display:block;left:53px;top:473px;position:absolute;z-index:19;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:25px;buttonDefaultLabel_font-size:18px;buttonDefaultPressedLabel_font-size:18px;newRuleWidth:71px;newRuleHeight:61px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:18px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;buttonDefaultLabel_color:#1e8eff;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedIcon_color:#1effc8;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedIcon_color:#1effc8;}#i7pt4g9iiuorh .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:#000000;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i7pt4g9iiuorh .ch5-button--default .ch5-button--label{font-family:Roboto;color:#1e8eff;font-size:18px;font-weight:400;buttonDefaultLabel_font-size:18px;buttonDefaultLabel_color:#1e8eff;buttonDefaultLabel_font-weight:400;custom-font-size:18px;margin-top:4px;margin-bottom:0;buttonDefaultLabel_margin-top:2px;}#i7pt4g9iiuorh .ch5-button--default .ch5-button--icon{color:#1e8eff;font-size:25px;custom-font-size:25px;buttonDefaultIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;margin-bottom:0;}#i7pt4g9iiuorh .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i7pt4g9iiuorh .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:#000000;border-color:#0099ff;border-width:1px;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#1effc8;font-size:18px;font-weight:400;buttonDefaultPressedLabel_font-size:18px;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedLabel_font-weight:400;custom-font-size:18px;margin-bottom:0;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#1effc8;margin-bottom:0;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#i7pt4g9iiuorh .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--selected .ch5-button--label{color:#1effc8;font-size:18px;font-weight:400;buttonDefaultSelectedLabel_font-size:18px;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:18px;margin-bottom:0;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultSelectedIcon_color:#1effc8;margin-bottom:0;}#i7pt4g9iiuorh .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#i7pt4g9iiuorh .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7pt4g9iiuorh .ch5-button--size-regular .cb-btn{width:70px;height:60px;}#i8cpihg9pu5ag{width:70px;height:60px;font-family:Roboto;display:block;left:257px;top:473px;position:absolute;z-index:21;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:25px;buttonDefaultLabel_font-size:10px;buttonDefaultPressedLabel_font-size:10px;newRuleWidth:71px;newRuleHeight:61px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:10px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;buttonDefaultLabel_color:#1e8eff;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedIcon_color:#1effc8;buttonDefaultSelectedLabel_color:#1e8eff;buttonDefaultSelectedIcon_color:#1e8eff;}#i8cpihg9pu5ag .ch5-button--default{border-style:solid;border-color:#0099ff;color:#ffffff;background-color:#000000;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i8cpihg9pu5ag .ch5-button--default .ch5-button--label{font-family:Roboto;color:#1e8eff;font-size:18px;font-weight:400;buttonDefaultLabel_font-size:18px;buttonDefaultLabel_color:#1e8eff;buttonDefaultLabel_font-weight:400;custom-font-size:18px;margin-top:4px;margin-bottom:0;buttonDefaultLabel_margin-top:2px;}#i8cpihg9pu5ag .ch5-button--default .ch5-button--icon{color:#1e8eff;font-size:25px;custom-font-size:25px;buttonDefaultIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;margin-bottom:0;}#i8cpihg9pu5ag .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i8cpihg9pu5ag .ccid-custom.ch5-button--default .ch5-button--img{width:50px;height:50px;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--pressed{color:#ffffff;background-color:#000000;border-color:#0099ff;border-width:1px;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#1effc8;font-size:18px;font-weight:400;buttonDefaultPressedLabel_font-size:18px;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedLabel_font-weight:400;custom-font-size:18px;margin-bottom:0;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#1effc8;margin-bottom:0;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#ffffff;buttonDefaultPressedCheckbox_color:#ffffff;}#i8cpihg9pu5ag .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--selected{color:#ffffff;background-color:rgba(90,90,90,0.78);border-color:#0099ff;border-width:1px;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--selected .ch5-button--label{color:#1effc8;font-size:18px;font-weight:400;buttonDefaultSelectedLabel_font-size:18px;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedLabel_font-weight:400;custom-font-size:18px;margin-bottom:0;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#1effc8;font-size:25px;custom-font-size:25px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultSelectedIcon_color:#1effc8;margin-bottom:0;}#i8cpihg9pu5ag .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#ffffff;buttonDefaultSelectedCheckbox_color:#ffffff;}#i8cpihg9pu5ag .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i8cpihg9pu5ag .ch5-button--size-regular .cb-btn{width:70px;height:60px;}}@media (orientation: portrait) and (max-height: 752px) and (max-width: 391px), (orientation: portrait) and (max-height: 750px){#ipf48vvzn8{width:389px;height:630px;left:0;top:0;position:absolute;}body{background-color:#4d4d4d;}#ixn1{width:100%;height:100%;left:0;top:0;position:absolute;z-index:-88;display:none;overflow:hidden;}#wrapper{background-color:#4d4d4d;}#i3vx{display:block;width:200px;dpadDefault_color:#ffffff;dpadActiveDefault_color:#00cfff;left:94px;top:215px;position:absolute;z-index:14;dpadActiveDefault_background-color:#000000;dpadDefault_background-color:#000000;dpadDefault_font-size:40px;dpadActiveDefault_font-size:40px;height:200px;}#it2vcyu5x9vcs{width:70px;height:60px;font-family:Roboto;left:53px;top:129px;position:absolute;z-index:16;buttonDefaultImage_width:50px;buttonDefaultImage_height:50px;buttonDefaultIcon_font-size:25px;buttonDefaultLabel_font-size:10px;buttonDefaultPressedLabel_font-size:10px;display:block;newRuleWidth:71px;newRuleHeight:61px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:10px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultIcon_color:#1e8eff;buttonDefaultLabel_color:#1e8eff;buttonDefaultPressedLabel_color:#1effc8;buttonDefaultPressedIcon_color:#1effc8;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedIcon_color:#1effc8;}#it2vcyu5x9vcs .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#it2vcyu5x9vcs .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}#it2vcyu5x9vcs .ch5-button--horizontal .ch5-button--vertical-top .ch5-button--icon{height:14.08px;}#it2vcyu5x9vcs .ch5-button--horizontal .ch5-button--vertical-bottom .ch5-button--icon{height:14.08px;}#i2qtzxnad0tie .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#i2qtzxnad0tie .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}#i2qtzxnad0tie .ch5-button--horizontal .ch5-button--vertical-top .ch5-button--icon{height:14.08px;}#i2qtzxnad0tie .ch5-button--horizontal .ch5-button--vertical-bottom .ch5-button--icon{height:14.08px;}#i2qtzxnad0tie{left:257px;top:129px;position:absolute;width:70px;height:60px;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedIcon_color:#1effc8;}#i7pt4g9iiuorh{left:53px;top:473px;position:absolute;width:70px;height:60px;buttonDefaultLabel_font-size:18px;buttonDefaultPressedLabel_font-size:18px;buttonDefaultSelectedLabel_font-size:18px;buttonDefaultSelectedLabel_color:#1effc8;buttonDefaultSelectedIcon_color:#1effc8;}#i7pt4g9iiuorh .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#i7pt4g9iiuorh .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}#i7pt4g9iiuorh .ch5-button--horizontal .ch5-button--vertical-top .ch5-button--icon{height:14.08px;}#i7pt4g9iiuorh .ch5-button--horizontal .ch5-button--vertical-bottom .ch5-button--icon{height:14.08px;}#i8cpihg9pu5ag{left:257px;top:473px;position:absolute;width:70px;height:60px;}#i8cpihg9pu5ag .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:2px;}#i8cpihg9pu5ag .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:2px;}#i8cpihg9pu5ag .ch5-button--horizontal .ch5-button--vertical-top .ch5-button--icon{height:14.08px;}#i8cpihg9pu5ag .ch5-button--horizontal .ch5-button--vertical-bottom .ch5-button--icon{height:14.08px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "NavCtrls"
+PageMode = "absolute"
+Id = "a443eaf8-bc59-47f5-9192-4aa917c74868"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "i8cpihg9pu5ag"
+pageflip = "0"
+iconposition = "top"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "ExitBtn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+oldID = "i7pt4g9iiuorh"
+labelinnerhtml = "Exit"
+selected = "true"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "i7pt4g9iiuorh"
+pageflip = "0"
+iconposition = "top"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "BackBtn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+oldID = "i2qtzxnad0tie"
+labelinnerhtml = "Back"
+selected = "true"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "i2qtzxnad0tie"
+pageflip = "0"
+iconposition = "top"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "HomeBtn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+oldID = "it2vcyu5x9vcs"
+selected = "true"
+pd-receivestatescriptlabelhtml = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "it2vcyu5x9vcs"
+pageflip = "0"
+iconposition = "top"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "EPGBtn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+size = "custom"
+labelinnerhtml = "EPG Guide"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+oldID = "iuj6"
+iconclass = "fas fa-list"
+selected = "true"
+[[Elements.Components]]
+Type = "Ch5 Dpad"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+[[Elements.Components.Components]]
+Type = "Ch5 Dpad Button"
+
+[Elements.Components.Components.Attributes]
+componentName = "Up"
+key = "up"
+iconclass = "fas fa-caret-up"
+pressed = "false"
+ccid_imageIconType = "iconclass"
+[[Elements.Components.Components]]
+Type = "Ch5 Dpad Button"
+
+[Elements.Components.Components.Attributes]
+componentName = "Down"
+key = "down"
+iconclass = "fas fa-caret-down"
+pressed = "false"
+ccid_imageIconType = "iconclass"
+[[Elements.Components.Components]]
+Type = "Ch5 Dpad Button"
+
+[Elements.Components.Components.Attributes]
+componentName = "Left"
+key = "left"
+iconclass = "fas fa-caret-left"
+pressed = "false"
+ccid_imageIconType = "iconclass"
+[[Elements.Components.Components]]
+Type = "Ch5 Dpad Button"
+
+[Elements.Components.Components.Attributes]
+componentName = "Right"
+key = "right"
+iconclass = "fas fa-caret-right"
+pressed = "false"
+ccid_imageIconType = "iconclass"
+[[Elements.Components.Components]]
+Type = "Ch5 Dpad Button"
+
+[Elements.Components.Components.Attributes]
+componentName = "Center"
+key = "center"
+pressed = "false"
+ccid_imageIconType = "iconclass"
+
+[Elements.Components.Attributes]
+size = "x-large"
+shape = "plus"
+type = "default"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+useContractForEnable = "false"
+useContractForShow = "false"
+hidecenterbutton = "false"
+disablecenterbutton = "false"
+customvstheme = "custom"
+id = "i3vx"
+componentName = "DPad"
+disabled = "false"
+ccid_themeCSSSet = "true"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+[[Elements.Components]]
+Type = "Ch5 Background"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "0"
+id = "ixn1"
+componentName = "Background"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+backgroundcolor = "#ffffff"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "ipf48vvzn8"
+devicesVisited = "[\"iPhone 14 Pro (Portrait)\"]"
+defaultWidth = "500px"
+defaultHeight = "500px"
+
